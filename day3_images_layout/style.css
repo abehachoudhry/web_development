@@ -1,0 +1,128 @@
+body{background-color: blanchedalmond;}
+img{width: 100%; display: block;}
+div.imgframe{
+    border: inset 20px crimson;
+    width: 700px;
+    margin: auto;
+    position: relative;
+}
+.imgtitle{
+    position: absolute; 
+    bottom: 40%;
+    top: 40%;
+    right: 30%;
+    left: 30%;
+    text-align: center;
+    padding: 5px;
+    background-color: rgb(90, 150, 190);
+}
+
+/*z-index*/
+.imgframe2{
+    border: inset 20px crimson;
+    width: 700px;
+    margin: auto;
+    position: absolute;
+    z-index: 0;
+}
+.imgtitle2{
+    position: absolute; 
+    z-index: 2;
+    bottom: 40%;
+    top: 40%;
+    right: 30%;
+    left: 30%;
+    text-align: center;
+    padding: 5px;
+    background-color: rgba(90, 150, 190, 0.7);
+}
+.imgparag{
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    left: 20%;
+    color: whitesmoke;
+    font-size: 30px;
+}
+.imglink{
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    right: 40%;
+    text-align: center;
+    color: whitesmoke;
+    padding: 10px 20px;
+    background-color: crimson;
+    font-size: 20px;
+    border-radius: 10px; /*border-radius: 50%; makes text round*/
+    text-decoration: none; /*removes underline*/
+}
+.imglink:hover{
+    background-color: black;
+    box-shadow: -10px -10px 5px green; /* - value makes shadow on the left,from the center, opaqueness */
+}
+
+/*CARD*/
+.card2{
+    margin-top: 550px;
+    
+}
+.sectioncard{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.card{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px gray;
+    transition: ease-in-out 200ms;
+    overflow: hidden;
+}
+.card:hover{
+    transform: scale(1.03);
+    cursor: pointer;
+}
+.cardlink{
+    color: crimson;
+    font-weight: 900;
+    text-decoration: none;
+    padding: 12px;
+    background-color: white;
+    display: inline-block;
+    border-radius: 10px;
+    transform: ease-in-out 200ms;
+    display: none;
+}
+.cardinfo{
+    padding: 12px;
+}
+.cardlink:hover{
+    background-color: aliceblue;
+    color: darkblue;
+}
+.card:hover .cardlink{
+    display: inline;
+}
+.portraitcard{
+    position: relative;
+}
+.portraitinfo{
+    position: absolute;
+    top: 10%;
+    left: 16%;
+    bottom: 16%;
+    text-align: center;
+}
+.card3{
+    width: 275px;
+    height: 20px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px gray;
+    transition: ease-in-out 200ms;
+    overflow: hidden; 
+}
