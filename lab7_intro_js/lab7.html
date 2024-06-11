@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Intro to JS by Abeha Choudhry</title>
+    <link rel="stylesheet" href="style.css">
+    <!--<style>
+
+    </style>
+    you can also place script here but style cannot go into the body-->
+</head>
+<body>
+    <h1> Introduction to Javascript </h1>
+
+    <script>
+        console.log("Welcome to JavaScript ______")
+        let number = 10.5;
+        console.log("The giving is", number)
+        number++
+        console.log("The updated number is", number)
+
+        let name = "Peter"
+        console.log(name+name)
+        console.log(name+number) 
+
+        let firstname = prompt("Enter a first name" , "") //putting Prof. Wu in the second quotes puts the same name in the prompt box
+        console.log(`Good evening ${firstname}`) //backticks , key next to number 1 ``
+
+        let n1 = prompt("Enter number 1: ", " ")
+        let n2 = prompt("Enter number 2: ", " ")
+        console.log(typeof(n1)) //type of method of JS that returns the data
+
+        let sum = n1+n2
+        console.log(`The sum before casting is ${sum}`)
+
+        //casting = change from one data type to another
+        n1 = parseInt(n1)
+        n2 = parseInt(n2)
+
+        sum = n1+n2;
+        console.log(`The sum after casting is ${sum}`)
+
+
+
+
+    </script>
+    
+</body>
+</html>
