@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <link rel="stylesheet" href="project1.css">
+    <link rel="stylesheet" href="contactme.css">
+</head>
+<body>
+    <a href="project1.html" class="linkhome">
+        <p class="backhome"> <span >&#127824;</span> <br> Home </p>
+    </a>
+   <form class="form">
+        <!-- Form Components -->
+        <fieldset> 
+        <legend class="formlegend"> <h1>✵ Contact Me ✷</h1></legend>
+
+        <!-- Input Control -->
+    <div class="part1">
+    <div class="control">
+        <label for="firstname">Firstname: </label>
+        <input type="text" name="firstname" id="firstname" placeholder="Type your first name..."> 
+        <label for="lastname"> Lastname:</label>
+        <input type="text" name="lastname" id="lastname" placeholder="Type your last name...">
+    </div>
+
+    <div class="control">
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="Type your email..."> 
+    </div>
+    </div>
+
+    <hr>
+    <div class="control">
+        <p> <label for="subject"> Subject: </label> </p>
+        <textarea name="textcomment" id="subject" rows="1" cols="70" placeholder="No more than 60 characters"
+        maxlength="70"></textarea></p>
+
+    <!-- Textarea Control-->
+    <div class="control">
+        <p> <label for="comments"> Message: </label> </p>
+        <textarea name="textcomment" id="comments" rows="12" cols="100" placeholder="No more than 2000 characters"
+        maxlength="2000"></textarea>
+    </div>
+
+
+    <!-- button -->
+    <div class="button">
+        <button class="button-font" type="submit">Send</button>
+    </div>
+
+    </fieldset>
+   </form>
+
+</body>
+</html>

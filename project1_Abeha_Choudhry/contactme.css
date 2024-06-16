@@ -1,0 +1,70 @@
+.backhome{
+    padding-top: 30px;
+    margin: auto;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+.backhome span{
+    font-size: 70px;
+    width: 100%;
+    text-align: center;
+}
+.linkhome{
+    color: black;
+    font-weight: bolder;
+    text-decoration: none;
+}
+.backhome:hover{
+    opacity: 0.6;
+    transform: translateZ(20px) scale(1.2);
+}
+/* FORM */
+.form{
+    
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.form fieldset{
+    width: 700px;
+    background-color: #edf5dd;
+    padding: 10px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 6px;
+    margin: 5% auto;
+}
+.formlegend{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 15px;
+    background-color: #edf5dd;
+    border: ridge 2px black;
+    width: 300px;
+    padding: 12px;
+    margin: auto;
+    border-radius: 10px ; /* curves the edges */
+}
+.control{
+    margin-top: 30px;
+}
+.control label{
+    padding: 10px;
+}
+
+.button{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.button-font{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    color: black;
+}
+.button-font:hover{
+    color: rgb(68, 95, 44)
+}
+.part1{
+    text-align: center;
+}
