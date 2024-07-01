@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temporary storage</title>
+</head>
+<body>
+    <h1>Temporary Storage</h1>
+    <form class="myform" action="display.html">
+        <fieldset>
+            <legend>Survery</legend>
+            <div class="controlblock">
+                <label for="firstname">First name: </label>
+                <input type="text" name="username" id="firstname">
+            </div>
+
+            <div class="controlblock">
+                <p>Please select your favorite Web language: </p>
+                <label for="html">HTML</label>
+                <input type="radio" name="fav_language" id="html" value="HyperText Markup Language, HTML">
+
+                <label for="css">CSS</label>
+                <input type="radio" name="fav_language" id="css" value="Cascading Style Sheet, CSS">
+
+                <label for="js">JavaScript</label>
+                <input type="radio" name="fav_language" id="js" value="JavaScript, JS">
+            </div>
+
+            <div class="controlblock">
+                <input type="submit" value="Submit Survey">
+            </div>
+
+        </fieldset>
+    </form>
+
+    <div class="displayresult"> </div>
+
+    <h1>Transfer item to the cart</h1>
+    <div class="container">
+        <section class="item1">
+            <img src="item1.webp" alt="" class="imgitem1">
+            <p class="itemname">Butterfly</p>
+            <p class="itemdescription_home">Fine fragrance mist</p>
+            <p> <s>$17.95</s> $<b class="saleprice">4.48</b></p>
+
+            <form class="formitem1" action="cart.html">
+                <label for="quantityitem1">Quantity</label>
+                <input type="number" id="quantityitem1" max="10" min="0" class="quantityinput">
+                <input type="submit" value="Add to Cart" class="item1btn">
+            </form>
+
+        </section>
+    </div>
+
+
+    <script src="storage.js"></script>
+</body>
+</html>
