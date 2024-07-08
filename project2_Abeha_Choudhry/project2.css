@@ -1,0 +1,279 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color: rgb(250, 243, 234);
+}
+
+/* HEADER */
+.navbar{
+    border-bottom: solid 2px;
+    background-color: rgb(250, 243, 234);
+}
+.headertitle{
+    font-size: 27px;
+    padding-top: 9px;
+    font-family: monospace;
+   
+}
+.navbar-nav{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 19px;
+    padding-left: 23px;
+}
+
+.icon{
+    margin-left: 50px;
+    font-size: 26px;
+    text-decoration: none;
+    transition: 1s;
+    transition-timing-function: ease-in-out;
+}
+.icon:hover{
+    opacity: 0.6;
+    transform: translateZ(20px) scale(1.4);
+}
+
+.cart{
+    font-size: 26px;
+    padding-right: 50px;
+    text-decoration: none;
+}
+.saved{
+    font-size: 26px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+}
+.about{
+    font-size: 18px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.email{
+    font-size: 18px;
+    padding-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.email:hover{
+    color: rgb(122, 169, 230); 
+}
+
+/* SHOP PHOTO */
+.pottery-main{
+    margin-bottom: -150px;
+}
+.pottery-photo{
+    padding: 0;
+    display: block;
+    margin: 0 auto;
+    max-height: 100%;
+    max-width: 100%;
+    position: relative;
+    top: -200px;
+    z-index: 0;
+    border: solid 2px;
+}
+.pottery-title{
+    position: absolute;
+    z-index: 2;
+    bottom: 83%;
+    top: 17%;
+    right: 70%;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    font-size: 50px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.pottery-title:hover{
+    color: rgb(44, 96, 164); 
+}
+.pottery-para{
+    position: absolute;
+    z-index: 1;
+    bottom: 12%;
+    left: 21%;
+    color: black;
+    text-decoration: none;
+    font-size: 36px;
+    width: 58%;
+    text-align: center;
+    padding: 2px;
+    border-radius: 20px;
+    background-color: rgba(116, 148, 175, 0.481);
+}
+
+/* MUGS */
+.mugs-sec{
+    border-bottom: dashed 1px;
+    padding-bottom: 80px;
+}
+.mugs-title{
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: monospace;
+}
+.card-body{
+    margin-bottom: -55px;
+}
+.card-title{
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.card-text{
+    font-size: 20px;
+    padding-top: 5px;
+    padding-left: 5px;
+}
+.card{
+    background-color: rgb(215, 225, 239);
+    box-shadow: 2px 2px 5px black;
+}
+.add{
+    text-align: right;
+    position: relative;
+    top: -40px;
+    padding-right: 5px;
+}
+
+/* BOWLS */
+.bowls-sec{
+    border-bottom: dashed 1px;
+    padding-bottom: 80px;
+}
+.bowls-title{
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: monospace;
+    padding-top: 70px;
+}
+
+/* TEAPOTS */
+.teapots-sec{
+
+    padding-bottom: 80px;
+}
+.teapots-title{
+    font-size: 55px;
+    text-align: center;
+    padding-bottom: 40px;
+    font-family: monospace;
+    padding-top: 70px;
+}
+
+/* FOOTER */
+.contact{
+    background-color: rgb(215, 225, 239);
+    display: flex;
+    padding-right: 70px;
+    padding-left: 70px;
+    border-top: solid 2px;
+    text-align: center;
+    justify-content: center;
+}
+.contactcolum{
+    width: 33%;
+    text-align: center;
+    padding: 60px;
+}
+
+.footer-title{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+}
+.email2{
+    color: black;
+    text-decoration: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    
+}
+.email2:hover{
+    text-decoration: underline;
+    color: rgb(122, 169, 230);
+}
+.footer-para{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.policieslink{
+    text-decoration: none;
+    display: block;
+    padding-top: 10px;
+}
+.followicon1{
+    width: 46px;
+    display: inline-block;
+    text-decoration: none;
+}
+.followicon2{
+    width: 46px;
+    display: inline-block;
+    text-decoration: none;
+}
+.followicon1:hover{
+    opacity: 0.6;
+}
+.followicon2:hover{
+    opacity: 0.6;
+}
+
+/* SHOPPING CART */
+.cart-title{
+    padding-top: 130px;
+    padding-left: 60px;
+    font-family: monospace;
+}
+.bagcontainer{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: nowrap;
+    padding-top: 50px;  
+    padding-bottom: 20%;
+}
+
+.itemremove{
+    width: 20%;
+    padding: 10px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.itemimg{
+    width: 20%;
+    padding: 10px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.itemprice{
+    width: 20%;
+    padding: 10px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.itemquantity{
+    width: 20%;
+    padding: 10px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.totalprice_item{
+    width: 20%;
+    padding: 10px;
+    border-top: solid black 1px;
+    border-bottom: solid black 1px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
